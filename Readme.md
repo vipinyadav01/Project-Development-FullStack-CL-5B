@@ -1,109 +1,95 @@
-# 🚀 SIPP 2025 - Full Stack Practice Questions
+# 🚀 SIIP 2025 - Full Stack Practice Hub
 
-Welcome to the official repository for **SIPP 2025 Full Stack Development Practice**.  
-This repository contains a curated list of **practice questions** arranged in **serial order**, covering both **Frontend** and **Backend** topics to help students become industry-ready Full Stack Developers.
+Welcome to the **Summer Internship & Placement Program 2025** repository for Full Stack Development!  
+This collection houses all practice questions from our classroom sessions, organized sequentially to build your skills from fundamentals to advanced concepts.
 
----
+![Full Stack Development](https://img.shields.io/badge/MERN-Stack-blue?style=for-the-badge) ![2025](https://img.shields.io/badge/SIIP-2025-orange?style=for-the-badge)
 
-## 📌 About the Program
+## 🎓 Program Overview
 
-**SIPP (Student Industry Preparation Program) 2025** is designed to prepare students for the latest trends and technologies in software development, focusing on Full Stack Development.
+**SIIP 2025** prepares college students for industry-ready software development skills through guided practice and mentorship. This repository captures our learning journey with:
 
-This repo includes:
-- 📘 Conceptual problems
-- 💻 Hands-on coding tasks
-- 🧠 Interview-level questions
-- 🧪 Project-based challenges
+- ✨ In-class exercises
+- 🛠️ Faculty-guided projects
+- 💡 Mentor-assigned challenges
+- 🏗️ Progressive skill-building tasks
 
----
-
-## 📁 Folder Structure
-
-```bash
-SIPP-2025-FullStack/
-│
-├── 01_HTML-CSS-Basics/
-│   └── Q1_Build-a-Portfolio.html
-│
-├── 02_JavaScript-Fundamentals/
-│   └── Q2_FormValidation.js
-│
-├── 03_React-Basics/
-│   └── Q3_TodoApp.jsx
-│
-├── 04_Node-Express/
-│   └── Q4_API-Creation.js
-│
-├── 05_MongoDB-Database/
-│   └── Q5_UserSchema.js
-│
-├── 06_Fullstack-Projects/
-│   └── Q6_LoginSystem/
-│       └── Frontend + Backend
-│
-└── README.md
-````
-
----
-
-## 🔢 Serial-wise Questions List
-
-| S.No | Topic             | Question Title            | Folder Path                             |
-| ---- | ----------------- | ------------------------- | --------------------------------------- |
-| 1    | HTML + CSS        | Build a Portfolio Website | `01_HTML-CSS-Basics/`                   |
-| 2    | JavaScript        | Form Validation Script    | `02_JavaScript-Fundamentals/`           |
-| 3    | React             | Todo App Using React      | `03_React-Basics/`                      |
-| 4    | Node + Express    | Basic REST API            | `04_Node-Express/`                      |
-| 5    | MongoDB           | User Schema Design        | `05_MongoDB-Database/`                  |
-| 6    | Fullstack Project | Login & Auth System       | `06_Fullstack-Projects/Q6_LoginSystem/` |
-
-> 📌 You can add more rows as you grow the repo!
-
----
-
-## 💡 How to Contribute (For Collaborators)
-
-1. Fork this repo
-2. Clone to your local machine
-3. Add your question folder with the naming format:
-
-   ```
-   Q{SerialNumber}_{ShortTitle}
-   ```
-4. Push and raise a PR
-
----
-
-## 👨‍💻 Tech Stack Covered
-
-* HTML5, CSS3, Tailwind
-* JavaScript (ES6+)
-* React.js
-* Node.js + Express.js
-* MongoDB
-* REST APIs
-* JWT Authentication
-
----
-
-## 🧑‍🎓 Maintained By
-
-**Vipin Yadav**
-Full Stack Developer | MERN | SIPP 2025 Participant
-
----
-
-## 📬 Contact
-
-Have suggestions or want to connect?
-
-📧 Email: \[[vipinyadav9m@gmail.com](mailto:vipinyadav9m@gmail.com)]
-🔗 LinkedIn: [linkedin.com/in/vipinyadav01](https://linkedin.com/in/vipinyadav01)
-
----
-
-## 🌟 Star This Repo
-
-If you find this repository helpful, please consider giving it a ⭐️ to help others discover it.
+## 📂 Content Structure
 
 ```
+SIIP-2025-FullStack/
+│
+├── 01_HTML-CSS-Basics/              # Week 1 content
+│   └── Q1_Build-a-Portfolio.html
+│
+├── 02_JavaScript-Fundamentals/      # Week 2 content
+│   └── Q2_FormValidation.js
+│
+├── 03_React-Basics/                 # Week 3 content
+│   └── Q3_TodoApp.jsx
+│
+├── 04_Node-Express/                 # Week 4 content
+│   └── Q4_API-Creation.js
+│
+├── 05_MongoDB-Database/             # Week 5 content
+│   └── Q5_UserSchema.js
+│
+├── 06_Fullstack-Projects/           # Capstone projects
+│   └── Q6_LoginSystem/
+│
+└── README.md
+```
+
+## 📝 Classroom Exercises Log
+
+| Session | Topic | Assignment | Instructor | Status |
+|:-------:|:------|:-----------|:----------:|:------:|
+| 01 | HTML + CSS | Portfolio Website | Prof. Kumar | ✅ |
+| 02 | JavaScript | Form Validation | Ms. Sharma | ✅ |
+| 03 | React.js | Todo Application | Mr. Gupta | ✅ |
+| 04 | Node.js + Express | REST API Design | Prof. Singh | ✅ |
+| 05 | MongoDB | Database Schema | Ms. Patel | ✅ |
+| 06 | Full Stack Integration | Auth System | Industry Mentor | ✅ |
+
+> 💡 Table updates after each class session!
+
+## 🧠 Learning Path
+
+```mermaid
+graph LR
+    A[HTML/CSS] --> B[JavaScript]
+    B --> C[React.js]
+    B --> D[Node.js]
+    D --> E[Express]
+    E --> F[MongoDB]
+    C & F --> G[Full Stack App]
+```
+
+## 💻 Tech Stack
+
+<div style="display: flex; gap: 10px;">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
+  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React">
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js">
+  <img src="https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white" alt="Express.js">
+  <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB">
+</div>
+
+## 👨‍💻 Student Maintainer
+
+**Vipin Yadav**  
+Computer Science | Batch of 2025 | SIIP Participant
+
+## 📱 Connect With Me
+
+[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:vipinyadav9m@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/vipinyadav01)
+
+---
+
+<div align="center">
+  <p>⭐ Star this repo if it helps your learning journey! ⭐</p>
+  <p>SIIP 2025 - Developing industry-ready professionals</p>
+</div>
