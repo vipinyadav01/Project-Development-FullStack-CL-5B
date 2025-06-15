@@ -44,12 +44,12 @@ SIIP-2025-FullStack/
 
 | Session | Topic | Assignment | Instructor | Status |
 |:-------:|:------|:-----------|:----------:|:------:|
-| 01 | HTML + CSS | Portfolio Website | Prof. Kumar | ✅ |
-| 02 | JavaScript | Form Validation | Ms. Sharma | ✅ |
-| 03 | React.js | Todo Application | Mr. Gupta | ✅ |
-| 04 | Node.js + Express | REST API Design | Prof. Singh | ✅ |
-| 05 | MongoDB | Database Schema | Ms. Patel | ✅ |
-| 06 | Full Stack Integration | Auth System | Industry Mentor | ✅ |
+| 01 | HTML + CSS | Portfolio Website | mr. Govind Jha  | ✅ |
+| 02 | JavaScript | Form Validation | mr. Govind Jha | ✅ |
+| 03 | React.js | Todo Application | mr. Govind Jha  | ✅ |
+| 04 | Node.js + Express | REST API Design | mr. Govind Jha  | ✅ |
+| 05 | MongoDB | Database Schema | mr. Govind Jha | ✅ |
+| 06 | Full Stack Integration | Auth System | Industry Mentor By Mr. Govind Jha  | ✅ |
 
 > 💡 Table updates after each class session!
 
