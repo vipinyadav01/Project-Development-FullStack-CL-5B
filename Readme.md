@@ -80,7 +80,7 @@ graph LR
 ## 👨‍💻 Student Maintainer
 
 **Vipin Yadav**  
-Computer Science | Batch of 2025 | SIIP Participant
+Computer Science | Batch of 2026 | SIIP Participant
 
 ## 📱 Connect With Me
 
