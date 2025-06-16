@@ -63,3 +63,8 @@ env/
 # Logs
 logs
 *.log
+*.bun.log
+# Build directories
+/dist/
+# Temporary files
+/tmp/
