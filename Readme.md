@@ -1,4 +1,4 @@
-# 🚀 SIIP 2025 - Full Stack Practice Hub
+# 🚀 SIPP 2025 - Full Stack Practice Hub
 
 Welcome to the **Summer Internship & Placement Program 2025** repository for Full Stack Development!  
 This collection houses all practice questions from our classroom sessions, organized sequentially to build your skills from fundamentals to advanced concepts.
@@ -7,7 +7,7 @@ This collection houses all practice questions from our classroom sessions, organ
 
 ## 🎓 Program Overview
 
-**SIIP 2025** prepares college students for industry-ready software development skills through guided practice and mentorship. This repository captures our learning journey with:
+**SIPP 2025** prepares college students for industry-ready software development skills through guided practice and mentorship. This repository captures our learning journey with:
 
 - ✨ In-class exercises
 - 🛠️ Faculty-guided projects
@@ -80,7 +80,7 @@ graph LR
 ## 👨‍💻 Student Maintainer
 
 **Vipin Yadav**  
-Computer Science | Batch of 2026 | SIIP Participant
+Computer Science | Batch of 2026 | SIPP Participant
 
 ## 📱 Connect With Me
 
@@ -91,5 +91,5 @@ Computer Science | Batch of 2026 | SIIP Participant
 
 <div align="center">
   <p>⭐ Star this repo if it helps your learning journey! ⭐</p>
-  <p>SIIP 2025 - Developing industry-ready professionals</p>
+  <p>SIPP 2025 - Developing industry-ready professionals</p>
 </div>
