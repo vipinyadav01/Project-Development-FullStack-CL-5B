@@ -1,13 +1,15 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 const Product = () => {
     const [products, setProducts] = useState([]);
     const [searchTerm, setSearchTerm] = useState('');
     const [isLoading, setIsLoading] = useState(false);
     const [error, setError] = useState(null);
+    const [sortOrder, setSortOrder] = useState('');
 
     useEffect(() => {
         fetchProducts();
-    }, []);
+    }, []); 
+    
 
     const fetchProducts = async () => {
         setIsLoading(true);
@@ -58,6 +60,16 @@ const Product = () => {
             setError(null);
         }
     };
+    const handleSort = (e) => {
+        const order = e.target.value;
+        setSortOrder(order);
+        
+        if (order === 'asc') {
+            setProducts([...products].sort((a, b) => a.price - b.price));
+        } else if (order === 'desc') {
+            setProducts([...products].sort((a, b) => b.price - a.price));
+        }
+    };
 
     return (
         <div className="container mx-auto px-4 py-8">
@@ -81,6 +93,17 @@ const Product = () => {
             {error && <div className="text-red-600 text-center mb-4">{error}</div>}
 
             {isLoading && <div className="text-center text-gray-600 mb-4">Loading products...</div>}
+            <div className="flex justify-end mb-4">
+                <select
+                    value={sortOrder}
+                    onChange={handleSort}
+                    className="px-4 py-2 border rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
+                >
+                    <option value="">Sort by Price</option>
+                    <option value="asc">Price: Low to High</option>
+                    <option value="desc">Price: High to Low</option>
+                </select>
+            </div>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
                 {products.length > 0 ? (
@@ -105,7 +128,6 @@ const Product = () => {
                     <div className="col-span-full text-center text-gray-500 py-8">No products found</div>
                 )}
             </div>
-
 
             {searchTerm && (
                 <div className="text-center mt-6">
